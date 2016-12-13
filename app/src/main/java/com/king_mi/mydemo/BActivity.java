@@ -34,13 +34,13 @@ public class BActivity extends AppCompatActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.textView:
-                backMainActivity("copy form BActivity");
+                backAActivity("copy form BActivity");
                 break;
 
         }
     }
 
-    private void backMainActivity(String text) {
+    private void backAActivity(String text) {
         Intent intent = new Intent();
         intent.putExtra(AActivity.FORM_ACT, text);
         setResult(RESULT_OK, intent);
