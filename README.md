@@ -4,7 +4,7 @@
 
 
 
-[代码对应的博客](http://http://blog.csdn.net/u014702332/article/details/53609819)
+[代码对应的博客](http://blog.csdn.net/u014702332/article/details/53609819)
 
 
 这两天在实现一个类似于京东选择地址的功能:从订单中选择已经存在的地址或者去添加新的地址，这就需要涉及到2个或者3个Activity之中间的的跳转。
